@@ -1,2 +1,25 @@
+/* Tailwind import (if using Tailwind CLI or PostCSS setup) */
 @import "tailwindcss";
 
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+
+/* Base body rule */
+body {
+    min-height: max(884px, 100dvh);
+    font-family: "Manrope", sans-serif;
+}
+
+/* Custom CSS variables that match your previous Tailwind config */
+:root {
+    --color-primary: #137fec;
+    --color-background-light: #f6f7f8;
+    --color-background-dark: #101922;
+
+    --radius-default: 1rem;
+    --radius-lg: 1.5rem;
+    --radius-xl: 2rem;
+    --radius-full: 9999px;
+}

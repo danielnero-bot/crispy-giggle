@@ -1,11 +1,9 @@
-import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import LoginPage from "./pages/Login"
 
 export default function App() {
   return(
     <>
-      <Navbar/>
-      <Main/>
+      <LoginPage />
     </>
   )
 }
